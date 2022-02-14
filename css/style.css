@@ -5,15 +5,16 @@
 
 #headerbg {
   background-image: url("../img/pattern.png");
-  background: rgba(15, 132, 228, 0.589);
+  background: rgba(6, 136, 243, 0.842);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: fit-content;
 }
 
 #titolo {
   background-image: url("../img/pattern.png");
-  background-size: contain;
+  background-size: 40%;
   color: white;
   font-size: 30px;
   font-family: Verdana, Tahoma, sans-serif;
@@ -21,13 +22,85 @@
   text-align: left;
   margin-top: 20px;
   margin-bottom: 10px;
+  height: 110px;
+  align-items: flex-end;
+  display: flex;
+}
+
+#logo {
+  height: 60px;
+  margin-bottom: 10px;
 }
 
 h1 {
   font-size: 45px;
 }
 
-.tim {
+#author {
+  color: grey;
+  font-size: large;
+  display: block;
+}
+
+#date {
+  color: grey;
+  font-size: small;
+  display: block;
+}
+
+.authorname {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+#tim {
   display: inline-block;
   margin-left: 0;
+}
+
+.caption {
+  font-size: small;
+}
+
+table {
+  margin: 45px 0;
+}
+
+th {
+  background: rgba(48, 138, 255, 0.753);
+}
+
+tr:nth-child(even) {
+  background: rgba(85, 244, 255, 0.493);
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
+
+#tablet {
+  color: white;
+}
+
+#related {
+  margin-top: 25px;
+  color: grey;
+  font-size: large;
+  font-weight: bold;
+  display: block;
+}
+
+.art1 {
+  color: white;
+  background-image: url("../img/monitor.jpg");
+  height: 200px;
+  width: 300px;
+}
+
+.art2 {
+  color: white;
+  background-image: url("../img/graph.jpg");
+  height: 200px;
+  width: 300px;
 }

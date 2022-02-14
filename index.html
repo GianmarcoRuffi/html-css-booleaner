@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Booleaner</title>
-    <link rel="stylesheet" href="../html-css-booleaner/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <!-- Start body -->
+  <!-- Start bodywrap -->
   <body>
     <div class="mainwrap">
       <!-- Header e titolo -->
       <header id="headerbg">
         <div id="titolo">
-          The <br />
-          Booleaner
+          <img id="logo" src="./img/logo.svg" alt="logo" />
         </div>
       </header>
       <frontespizio>
@@ -23,19 +22,25 @@
           Tim Berners-Lee
         </h1>
       </frontespizio>
-      <author>Scritto da The Booleaner</author>
-      <date>il 10/10/2020</date>
+      <span id="author">
+        Scritto da <span class="authorname">The Booleaner </span></span
+      >
+      <span id="date"> il 10/10/2020 </span>
       <figure id="tim">
-        <img src="../html-css-booleaner/img/tim-1.jpg" alt="Tim Berners-Lee" />
-        <img src="../html-css-booleaner/img/tim-2.jpg" alt="Tim Berners-Lee" />
-        <figcaption>
+        <img src="./img/tim-1.jpg" alt="Tim Berners-Lee" />
+        <img src="./img/tim-2.jpg" alt="Tim Berners-Lee" />
+        <figcaption class="caption">
           1st Photo: John S. and James L. Knight Foundation, by Scott
           Henrichsen.
         </figcaption>
-        <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+        <figcaption class="caption">
+          2nd Photo: Wikimedia, by Paul Clarke
+        </figcaption>
       </figure>
+      <!-- /Header e titolo -->
 
-      <section1>
+      <!-- Sezione di testo -->
+      <section id="section_1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
         elementum magna. Suspendisse massa velit, pulvinar sit amet risus sit
         amet, viverra sollicitudin velit. Pellentesque condimentum interdum
@@ -54,8 +59,8 @@
         urna. Duis aliquet hendrerit enim, sed consequat ante sagittis iaculis.
         Ut eget ipsum porta, varius diam ac, sagittis orci. Mauris vitae sapien
         dui.
-      </section1>
-      <section2>
+      </section>
+      <section>
         <ul>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -73,7 +78,86 @@
             nobis omnis..
           </li>
         </ul>
-      </section2>
+      </section>
+      <!-- /Sezione di testo -->
+
+      <!-- Tabella -->
+      <section>
+        <table>
+          <tr id="tablet">
+            <th>Lorem ipsum dolor</th>
+            <th>Lorem ipsum dolor</th>
+            <th>Lorem ipsum dolor</th>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              veniam provident minus blanditiis quisquam incidunt laudantium.
+              Illo, ex. Consectetur excepturi ex totam fuga minus praesentium
+              eum quae ad voluptas harum.
+            </td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              veniam provident minus blanditiis quisquam incidunt laudantium.
+              Illo, ex. Consectetur excepturi ex totam fuga minus praesentium
+              eum quae ad voluptas harum.
+            </td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              veniam provident minus blanditiis quisquam incidunt laudantium.
+              Illo, ex. Consectetur excepturi ex totam fuga minus praesentium
+              eum quae ad voluptas harum.
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!-- /Tabella -->
+
+      <!-- Ultimo paragrafo -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
+        elementum magna. Suspendisse massa velit, pulvinar sit amet risus sit
+        amet, viverra sollicitudin velit. Pellentesque condimentum interdum
+        dolor ac semper. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Etiam lobortis arcu a facilisis
+        vehicula. Morbi faucibus tellus eu risus consectetur, et lobortis est
+        tempor: elementum, nibh consequat rhoncus consequat, erat mi facilisis
+        turpis, eu imperdiet neque leo nec est. Pellentesque habitant morbi
+        tristique senectus et netus et malesuada fames ac turpis egestas.
+        Curabitur at felis ut ante interdum vulputate eu at nibh. Quisque ac
+        metus elit. Duis maximus nunc id eros faucibus tincidunt. Etiam velit
+        metus, varius sit amet accumsan a, mollis vitae urna.
+        <span style="background-color: #ffff00"
+          >Duis aliquet hendrerit enim, sed consequat ante sagittis
+          iaculis.</span
+        >
+        Ut eget ipsum porta, varius diam ac, sagittis orci. Mauris vitae sapien
+        dui.
+      </p>
+      <!-- /Ultimo paragrafo -->
+
+      <footer>
+        <span id="related"> Potrebbero interessarti</span>
+        <div class="art1">
+          <h3>Lorem ipsum dolor</h3>
+        </div>
+
+        <div class="art2">
+          <h3>Lorem ipsum dolor</h3>
+        </div>
+      </footer>
     </div>
   </body>
+
+  <!-- End bodywrap -->
 </html>
