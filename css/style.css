@@ -1,0 +1,33 @@
+.mainwrap {
+  width: 1100px;
+  margin: auto;
+}
+
+#headerbg {
+  background-image: url("../img/pattern.png");
+  background: rgba(15, 132, 228, 0.589);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#titolo {
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-shadow: 2px -2px 0 #000000;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.tim {
+  display: inline-block;
+  margin-left: 0;
+}
